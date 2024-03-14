@@ -1,0 +1,68 @@
+[
+   {
+     "id": 123456789,
+     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
+     "author": {
+       "name": "John Doe",
+       "role": "Developer",
+       "img": "https://i.ibb.co/LZfybST/162616.jpg"
+     },
+     "date": "2024-03-15",
+     "readTime": "5 min",
+     "title": "Getting Started with React",
+     "category": "#programming"
+   },
+   {
+     "id": 987654321,
+     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
+     "author": {
+       "name": "Jane Smith",
+       "role": "Data Scientist",
+       "img": "https://i.ibb.co/LZfybST/162616.jpg"
+     },
+     "date": "2024-03-14",
+     "readTime": "8 min",
+     "title": "Introduction to Machine Learning",
+     "category": "#datascience"
+   },
+   {
+     "id": 456123789,
+     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
+     "author": {
+       "name": "Alex Johnson",
+       "role": "Productivity Coach",
+       "img": "https://i.ibb.co/LZfybST/162616.jpg"
+     },
+     "date": "2024-03-13",
+     "readTime": "7 min",
+     "title": "Tips for Effective Time Management",
+     "category": "#productivity"
+   },
+   {
+     "id": 789123456,
+     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
+     "author": {
+       "name": "Emily Brown",
+       "role": "Web Developer",
+       "img": "https://i.ibb.co/LZfybST/162616.jpg"
+     },
+     "date": "2024-03-12",
+     "readTime": "6 min",
+     "title": "The Basics of Web Development",
+     "category": "#webdevelopment"
+   },
+   {
+     "id": 321654987,
+     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
+     "author": {
+       "name": "Michael Wilson",
+       "role": "JavaScript Expert",
+       "img": "https://i.ibb.co/LZfybST/162616.jpg"
+     },
+     "date": "2024-03-11",
+     "readTime": "9 min",
+     "title": "Mastering JavaScript",
+     "category": "#javascript"
+   }
+ ]
+ 

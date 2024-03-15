@@ -1,14 +1,26 @@
+import { useState } from "react";
 import Blogs from "./Components/Blogs/Blogs";
+import Bookmarks from "./Components/Bookmarks/Bookmarks";
+import Nav from "./Components/Headers/Nav";
 
 function App() {
+  const [bookmarks, setBookmark] = useState([]);
+  const handleBookmark = (updateItem) => {
+    const update = [...bookmarks, updateItem];
+    setBookmark(update);
+  };
+
   return (
     <>
-      <div className="flex items-center justify-center h-screen w-full flex-col gap-5">
-        <h2 className="p-10 bg-blue-300 rounded-lg text-white font-bold capitalize">
-          this is from app components{" "}
-        </h2>
-        <div className="p-10 bg-pink-500 rounded-lg text-white font-bold capitalize">
-          <Blogs></Blogs>
+      <Nav></Nav>
+      <div className="container mx-auto">
+        <div className="capitalize flex flex-col md:flex-row gap-2">
+          <div className="md:w-7/12">
+            <Blogs handleBookmark={handleBookmark}></Blogs>
+          </div>
+          <div className="md:w-5/12">
+            <Bookmarks bookmarks={bookmarks}></Bookmarks>
+          </div>
         </div>
       </div>
     </>

@@ -1,68 +1,67 @@
 [
-   {
-     "id": 123456789,
-     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
-     "author": {
-       "name": "John Doe",
-       "role": "Developer",
-       "img": "https://i.ibb.co/LZfybST/162616.jpg"
-     },
-     "date": "2024-03-15",
-     "readTime": "5 min",
-     "title": "Getting Started with React",
-     "category": "#programming"
-   },
-   {
-     "id": 987654321,
-     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
-     "author": {
-       "name": "Jane Smith",
-       "role": "Data Scientist",
-       "img": "https://i.ibb.co/LZfybST/162616.jpg"
-     },
-     "date": "2024-03-14",
-     "readTime": "8 min",
-     "title": "Introduction to Machine Learning",
-     "category": "#datascience"
-   },
-   {
-     "id": 456123789,
-     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
-     "author": {
-       "name": "Alex Johnson",
-       "role": "Productivity Coach",
-       "img": "https://i.ibb.co/LZfybST/162616.jpg"
-     },
-     "date": "2024-03-13",
-     "readTime": "7 min",
-     "title": "Tips for Effective Time Management",
-     "category": "#productivity"
-   },
-   {
-     "id": 789123456,
-     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
-     "author": {
-       "name": "Emily Brown",
-       "role": "Web Developer",
-       "img": "https://i.ibb.co/LZfybST/162616.jpg"
-     },
-     "date": "2024-03-12",
-     "readTime": "6 min",
-     "title": "The Basics of Web Development",
-     "category": "#webdevelopment"
-   },
-   {
-     "id": 321654987,
-     "coverPhoto": "https://i.ibb.co/HHmQyRh/2453842-327233-P9-XOSP-876.jpg",
-     "author": {
-       "name": "Michael Wilson",
-       "role": "JavaScript Expert",
-       "img": "https://i.ibb.co/LZfybST/162616.jpg"
-     },
-     "date": "2024-03-11",
-     "readTime": "9 min",
-     "title": "Mastering JavaScript",
-     "category": "#javascript"
-   }
- ]
- 
+  {
+    "id": 123456789,
+    "coverPhoto": "https://i.postimg.cc/Hk5th8qz/blog-cover.png",
+    "author": {
+      "name": "John Doe",
+      "role": "Developer",
+      "img": "https://i.ibb.co/LZfybST/162616.jpg"
+    },
+    "date": "2024-03-15",
+    "readTime": "5 min",
+    "title": "Comprehensive Guide: Getting Started with React for Beginners - Everything You Need to Know to Dive into React Development",
+    "category": "#programming"
+  },
+  {
+    "id": 987654321,
+    "coverPhoto": "https://i.postimg.cc/Hk5th8qz/blog-cover.png",
+    "author": {
+      "name": "Jane Smith",
+      "role": "Data Scientist",
+      "img": "https://i.ibb.co/LZfybST/162616.jpg"
+    },
+    "date": "2024-03-14",
+    "readTime": "8 min",
+    "title": "A Detailed Introduction to Machine Learning Algorithms and Techniques - Exploring the Fundamentals and Applications",
+    "category": "#datascience"
+  },
+  {
+    "id": 456123789,
+    "coverPhoto": "https://i.postimg.cc/Hk5th8qz/blog-cover.png",
+    "author": {
+      "name": "Alex Johnson",
+      "role": "Productivity Coach",
+      "img": "https://i.ibb.co/LZfybST/162616.jpg"
+    },
+    "date": "2024-03-13",
+    "readTime": "7 min",
+    "title": "Effective Time Management: Practical Tips for Improving Productivity - Strategies for Organizing Your Time and Boosting Efficiency",
+    "category": "#productivity"
+  },
+  {
+    "id": 789123456,
+    "coverPhoto": "https://i.postimg.cc/Hk5th8qz/blog-cover.png",
+    "author": {
+      "name": "Emily Brown",
+      "role": "Web Developer",
+      "img": "https://i.ibb.co/LZfybST/162616.jpg"
+    },
+    "date": "2024-03-12",
+    "readTime": "6 min",
+    "title": "Demystifying Web Development: Understanding the Basics and Beyond - Exploring Frontend and Backend Technologies",
+    "category": "#webdevelopment"
+  },
+  {
+    "id": 321654987,
+    "coverPhoto": "https://i.postimg.cc/Hk5th8qz/blog-cover.png",
+    "author": {
+      "name": "Michael Wilson",
+      "role": "JavaScript Expert",
+      "img": "https://i.ibb.co/LZfybST/162616.jpg"
+    },
+    "date": "2024-03-11",
+    "readTime": "9 min",
+    "title": "Unlocking the Power of JavaScript: Advanced Techniques and Best Practices - Enhancing Your Skills with Modern JavaScript Features",
+    "category": "#javascript"
+  }
+]

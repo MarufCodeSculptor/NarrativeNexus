@@ -1,7 +1,7 @@
 import { BsBookmarkCheckFill } from "react-icons/bs";
 import PropTypes from "prop-types";
 
-const Blog = ({ blog, handleBookmark }) => {
+const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
   // Data  Destructuring -------
   const { author, title, coverPhoto, category, readTime, date } = blog;
   const { name, role, img } = author;
@@ -34,9 +34,7 @@ const Blog = ({ blog, handleBookmark }) => {
             <div className="flex flex-row gap-3 items-center">
               <span>{readTime}</span>
               <button
-                onClick={() => {
-                  alert("bookmark working");
-                }}
+                onClick={() => handleBookmark(blog)}
                 className="text-blue-800 text-2xl w-10 h-10 bg-pink-300 rounded-full shadow-2xl flex items-center justify-center"
               >
                 <BsBookmarkCheckFill />
@@ -58,7 +56,7 @@ const Blog = ({ blog, handleBookmark }) => {
 
           {/* mark as read button  */}
           <button
-            onClick={() => handleBookmark(blog)}
+            onClick={() => handleMarkAsRead(readTime)}
             className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded inline-flex items-center my-3"
           >
             <svg
@@ -85,7 +83,8 @@ const Blog = ({ blog, handleBookmark }) => {
 
 Blog.propTypes = {
   handleBookmark: PropTypes.func.isRequired,
-  blog:PropTypes.object.isRequired
+  handleMarkAsRead: PropTypes.func.isRequired,
+  blog: PropTypes.object,
 };
 
 export { Blog };

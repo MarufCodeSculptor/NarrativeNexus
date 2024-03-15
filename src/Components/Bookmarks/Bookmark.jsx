@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 
 const Bookmark = ({ bookmarks }) => {
-  const { author, title, coverPhoto, category, readTime, date } = bookmarks;
-  const { name, role, img } = author;
+  const { title } = bookmarks;
+  // const { name, role, img } = author;
 
   return (
     <div className="mt-3 drop-shadow-xl bg-white shadow-lg p-3 rounded-lg">

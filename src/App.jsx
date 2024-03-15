@@ -5,6 +5,13 @@ import Nav from "./Components/Headers/Nav";
 
 function App() {
   const [bookmarks, setBookmark] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
+  const handleMarkAsRead = (time) => {
+    const updateTime = parseInt(readingTime) + parseInt(time);
+    setReadingTime(updateTime);
+  };
+  
+
   const handleBookmark = (updateItem) => {
     const update = [...bookmarks, updateItem];
     setBookmark(update);
@@ -16,10 +23,13 @@ function App() {
       <div className="container mx-auto">
         <div className="capitalize flex flex-col md:flex-row gap-2">
           <div className="md:w-7/12">
-            <Blogs handleBookmark={handleBookmark}></Blogs>
+            <Blogs
+              handleBookmark={handleBookmark}
+              handleMarkAsRead={handleMarkAsRead}
+            ></Blogs>
           </div>
           <div className="md:w-5/12">
-            <Bookmarks bookmarks={bookmarks}></Bookmarks>
+            <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
           </div>
         </div>
       </div>

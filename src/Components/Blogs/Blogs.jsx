@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Blog } from "./Blog";
 import PropTypes from "prop-types";
 
-const Blogs = ({ handleBookmark }) => {
+const Blogs = ({ handleBookmark, handleMarkAsRead }) => {
+ 
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch("./fakeData.json")
@@ -24,6 +25,7 @@ const Blogs = ({ handleBookmark }) => {
       <div className="flex flex-col gap-3 mt-3 ">
         {blogs.map((blog) => (
           <Blog
+            handleMarkAsRead={handleMarkAsRead}
             key={blog.id}
             blog={blog}
             handleBookmark={handleBookmark}
@@ -35,7 +37,9 @@ const Blogs = ({ handleBookmark }) => {
 };
 
 Blogs.propTypes = {
-  handleBookmark: PropTypes.func,
+  handleBookmark: PropTypes.func.isRequired,
+  handleMarkAsRead: PropTypes.func,
+
   // handleMarkAsRead: PropTypes.func,
 };
 
